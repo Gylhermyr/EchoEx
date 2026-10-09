@@ -15,32 +15,36 @@
             <h1 id="ex">ECHOEX</h1>
             </div>
             <div class="butata">
-                <button class="Btata">Início</button>
-                <button class="Btata">Sobre Nós</button>
-                <button class="Btata">Aplicativo</button>
+                <button class="Btata" id="iniB" onclick="irparainicio()">Início</button>
+                <button class="Btata" id="sobreB" onclick="irparasobre()">Sobre Nós</button>
+                <button class="Btata" id="appB" onclick="irparaapp()">Aplicativo</button>
             </div>
             <div class="divFa">
-                <button>Fale Conosco</button>
+                <button onclick="irparafooter()">Fale Conosco</button>
             </div>
         </div>
     </header>
     <main>
-        <div class="sec2">
-            <div id = "divIN">
+        <div class="sec2" id="sec2">
+            <div id ="divIN">
                 <h1>A forma de entrega mais sustentável do Brasil</h1>
                 <p>Melhore sua empresa com o conforto e funcionalidade de primeira linha. Invista em um sistema de entrega mais seguro, rápido e sustentável.</p>
-                <button>Comece Hoje</button>
+                <button onclick="irparadifer()">Comece Hoje</button>
             </div>
         </div>
         <div class="sec3">
             <h1>“Melhore a logística de seu empreendimento enquanto ajuda ao meio ambiente”</h1>
         </div>
-        <div class="sec4">
+        <div class="sec4" id="sec4">
             <h1>Sobre Nós</h1>
             <p>
                 A EchoEx é uma startup que ajuda empresas pequenas e entregadores locais de um jeito sustentável. Funcionamos como meio de parceria entre esses dois campos para as empresas terem um modo de levar seus produtos e os entregadores conseguirem usar isso como forma de econômia. Tudo isso fazendo do jeito mais sustentável possível!
             </p>
-            <button>Leia mais</button>
+            <button onclick="irparaapp()">Leia mais</button>
+        </div>
+        <div class="sec5">
+            <h1>Uma logística essencial para toda empresa!</h1>
+            <p>Desde micro empreendedores que lidam com tudo sozinho até à média empresas, temos uma solução para você!</p>
         </div>
         <div class="sec6">
             <h1>Melhora sua logística
@@ -50,7 +54,7 @@
             <p>Obtenha o suporte local de quem acredita em seu empreendimento. Se houver qualquer problemas nós estaremos aqui para lhe auxiliar!</p>
         </div>
         <div class="referencia">
-            <div class="sec7">
+            <div class="sec7" id="sec7">
                 <div id="divImg">
                     <img src="https://raw.githubusercontent.com/Gylhermyr/EchoEx/refs/heads/main/Imagem%20app.png" alt="Imagem App" id="imgApp">
                 </div>
@@ -61,7 +65,7 @@
                     </p>
                 </div>
             </div>
-            <div class="sec8">
+            <div class="sec8" id="sec8">
                 <div>
                     <h1 id="difer">Por que somos diferentes?</h1>
                     <p id="enterP">Uma entrega pode fazer seu dia!</p>
@@ -90,7 +94,7 @@
             </div>
         </div>
     </main>
-    <footer>
+    <footer id="footer">
         <div id="echoex">
             <h1 class="titulo">ECHOEX</h1>
             <p>Rua ali, perto de davi, 67</p>
@@ -119,7 +123,7 @@
         </div>
         <div id="note">
             <p class="titulo" id="noteP">Notícias, ofertas e muito mais</p>
-            <a href="email">E-mail&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></a>
+            <a href="email" target="_blank">E-mail&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></a>
         </div>
     </footer>
 </body>
