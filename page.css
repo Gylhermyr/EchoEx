@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #ccebc9;
+    display:flex;
+    position: sticky;
+    top:0;
+    z-index: 5;
+}
+.sec1{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin-left: 8%;
+    align-items: center;
+    padding: 5px;
+}
+.divL{
+    display: flex;
+    align-content: flex-start;
+    gap: 8%;
+}
+#logo{
+    width: 4vw;
+    height: auto;
+    margin-left: 2%;
+    margin-top: 1%;
+    display: block;
+}
+#ex{
+    margin-top: 14%;
+    color: #488942;
+    font-weight: bold;
+}
+.butata{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.Btata{
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: "Hanken Grotesk", sans-serif;
+}
+.divFa{
+    display: flex;
+    align-items: center;
+}
+.divFa button{
+    cursor: pointer;
+    border: none;
+    background-color: #3c6634;
+    color:#f6f1f1;
+    font-size: 20px;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: bold;
+    padding: 5px 12px;
+}
+.sec2{
+    background-color: #ccebc9;
+    margin:0;
+    height: 640px;
+}
+.sec2 h1{
+    margin-top: 0;
+    margin-left: 3%;
+    padding-top: 5%;
+    width: 800px;
+    font-size: 60px;
+    margin-bottom: 0;
+    font-family: "Alice", serif;
+    font-weight: bold;
+}
+.sec2 p{
+    font-size: 20px;
+    width: 620px;
+    margin-left: 3%;
+    margin-top: 1%;
+    word-spacing: 10px;
+    font-family: "Open Sans", sans-serif;
+}
+.sec2 button{
+    margin-left: 3%;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    background-color: #1d242d;
+    color: #f6f1f1;
+    padding: 5px 12px;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: bold;
+}
+.sec3{
+    background-color: #3c6634;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+.sec3 h1{
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ccebc9;
+    font-size: 50px;
+    width: 60%;
+    text-align: center;
+    font-family: "Alice", serif;
+}
+.sec4{
+    background-color: #f6f1f1;
+    padding-bottom: 80px;
+}
+.sec4 h1{
+    margin-top: 0;
+    padding-top: 5%;
+    margin-left: 3%;
+    font-size: 60px;
+    margin-bottom: 0;
+    color: #488942;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sec4 p{
+    margin-left: 3%;
+    margin-top: 1%;
+    font-size: 20px;
+    width: 540px;
+    word-spacing: 10px;
+    font-family: "Open Sans", sans-serif;
+}
+.sec4 button{
+    margin-left: 3%;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    background-color: #3c6634;
+    color: white;
+    padding: 5px 12px;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: bold;
+}
+.sec6{
+    background-color: #3c6634;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+.sec6 h1{
+    margin-top:0;
+    padding: 1%;
+    width: 380px;
+    color: #ccebc9;
+    font-family: "Alice", serif;
+    font-weight: normal;
+}
+.sec6 p{
+    font-size: 25px;
+    width: 675px;
+    word-spacing: 10px;
+    color: #ccebc9;
+    font-family: "Open Sans", sans-serif;
+}
+.referencia{
+    position: relative;
+}
+.sec7{
+    background-color: #f6f1f1;
+    display: flex;
+    justify-content: space-around;
+}
+#divImg{
+    width: 600px;
+}
+#imgApp{
+    margin-left: 8%;
+    padding-top: 10%;
+}
+#secText{
+    width: 800px;
+    margin-left: 12%;
+}
+#secText h1{
+    display:flex;
+    width: 526px;
+    margin-left: 275px;
+    color: #488942;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    padding-top: 15%;
+}
+#secText p{
+    width: 600px;
+    text-align: end;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    word-spacing: 10px;
+    margin-left: 25%;
+}
+.sec8{
+    position: absolute;
+    z-index: 1;
+    height: 900px;
+    width: 100%;
+    background-color: #f6f1f1;
+    top:80%;
+}
+.sec8 h1{
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    color: #488942;
+    font-family: "Alice", serif;
+}
+.sec8 p{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+}
+#difer{
+    padding-top: 3%;
+    margin-bottom: 1%;
+}
+#enterP{
+    margin-top: 0;
+    margin-bottom: 5%;
+}
+#divImgs{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+#img1 img{
+    margin-left: 37%;
+    width: 7vw;
+    height: auto;
+}
+#img1 h1{
+    font-size: 40px;
+}
+#img2 img{
+    margin-left: 26%;
+    width: 10vw;
+    height: auto;
+    margin-top: 8%;
+}
+#img2 h1{
+    font-size: 40px;
+    margin-top: 6%;
+}
+#img3 img{
+    margin-left: 30%;
+    width: 7vw;
+    height: auto;
+}
+#img3 h1{
+    font-size: 40px;
+    margin-top: 10%;
+}
+#entreP{
+    margin-bottom: 0;
+    margin-top: 5%;
+}
+#comec{
+    margin-top: 1%;
+}
+footer{
+    background-color: #3c6634;
+    height: 250px;
+    padding-top: 5%;
+    margin-top: 748px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+footer h1{
+    margin: 0;
+    margin-top: 10%;
+    font-size: 40px;
+}
+footer p{
+    margin: 4px;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+}
+footer a{
+    text-decoration: none;
+    font-size: 24px;
+    background-color: #ccebc9;
+    padding-left: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 5px;
+    color: #1d242d;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: bold;
+}
+footer img{
+    width: 15%;
+    height: auto;
+}
+.titulo{
+    color: #ccebc9;
+}
+#tituloP{
+    margin-top: 18%;
+    font-size: 25px;
+}
+#noteP{
+    width: 200px;
+    margin-top: 18%;
+    margin-bottom: 10px;
+}
